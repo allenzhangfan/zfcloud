@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="zfcloud" />
+        <module name="sys-server" />
         <module name="gateway" />
         <module name="reg-server" />
       </profile>
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="gateway" options="-parameters" />
       <module name="reg-server" options="-parameters" />
+      <module name="sys-server" options="-parameters" />
     </option>
   </component>
 </project>
