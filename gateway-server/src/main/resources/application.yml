@@ -1,0 +1,16 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
+    instance:
+      prefer-ip-address: true
+server:
+  port: 8001
+spring:
+  application:
+    name: gateway-server
+zuul:
+  routes:
+    sys:
+      path: /sys/**
+      serviceId: sys-server
