@@ -7,14 +7,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/testBoot")
+//@RequestMapping("/testBoot")
 public class UserController {
 
     @Autowired
     private UserService userService;
 
-    @RequestMapping("getUser/{id}")
+    @RequestMapping("/getUser/{id}")
     public String GetUser(@PathVariable int id){
-        return userService.Sel(id).toString();
+        return userService.Sel(id+1).toString();
     }
 }
