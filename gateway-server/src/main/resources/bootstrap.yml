@@ -14,3 +14,6 @@ zuul:
     sys:
       path: /sys/**
       serviceId: sys-server
+    user:
+      path: /user/**
+      serviceId: user-server
