@@ -20,10 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9f136d7-ec14-4426-bf5c-617d52fd34af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/com/zf/common/DruidConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-server/src/main/java/com/zf/common/DruidStatFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/src/main/java/com/zf/userserver/UserServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/src/main/java/com/zf/userserver/UserServerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-server/src/main/java/com/zf/userserver/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/src/main/java/com/zf/userserver/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +106,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.UserServerApplication">
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+    <configuration default="true" type="JetRunConfigurationType">
       <module name="reg-server" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -115,7 +119,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="reg-server" />
       <option name="filePath" />
       <option name="vmParameters" />
@@ -192,28 +196,6 @@
       <item itemvalue="Spring Boot.SysServerApplication" />
     </list>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -239,24 +221,24 @@
       <workItem from="1591684204997" duration="4531000" />
       <workItem from="1591705752995" duration="1897000" />
       <workItem from="1591707689684" duration="343000" />
+      <workItem from="1591752948963" duration="6229000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1591609470530">
@@ -271,38 +253,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="761" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591705791042" />
-    <state width="1293" height="282" key="GridCell.Tab.0.bottom" timestamp="1591707930526">
+    <state x="771" y="421" key="Github.CreateGistDialog" timestamp="1591753540459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591707930526" />
-    <state width="1293" height="282" key="GridCell.Tab.0.center" timestamp="1591707930526">
+    <state x="771" y="421" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591753540459" />
+    <state width="1293" height="282" key="GridCell.Tab.0.bottom" timestamp="1591761146360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591707930526" />
-    <state width="1293" height="282" key="GridCell.Tab.0.left" timestamp="1591707930526">
+    <state width="1293" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591761146360" />
+    <state width="1293" height="282" key="GridCell.Tab.0.center" timestamp="1591761146360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591707930526" />
-    <state width="1293" height="282" key="GridCell.Tab.0.right" timestamp="1591707930526">
+    <state width="1293" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591761146360" />
+    <state width="1293" height="282" key="GridCell.Tab.0.left" timestamp="1591761146360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591707930526" />
-    <state width="1293" height="282" key="GridCell.Tab.1.bottom" timestamp="1591707930527">
+    <state width="1293" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591761146360" />
+    <state width="1293" height="282" key="GridCell.Tab.0.right" timestamp="1591761146360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591707930527" />
-    <state width="1293" height="282" key="GridCell.Tab.1.center" timestamp="1591707930527">
+    <state width="1293" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591761146360" />
+    <state width="1293" height="282" key="GridCell.Tab.1.bottom" timestamp="1591761146360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591707930527" />
-    <state width="1293" height="282" key="GridCell.Tab.1.left" timestamp="1591707930526">
+    <state width="1293" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591761146360" />
+    <state width="1293" height="282" key="GridCell.Tab.1.center" timestamp="1591761146360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591707930526" />
-    <state width="1293" height="282" key="GridCell.Tab.1.right" timestamp="1591707930527">
+    <state width="1293" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591761146360" />
+    <state width="1293" height="282" key="GridCell.Tab.1.left" timestamp="1591761146360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591707930527" />
+    <state width="1293" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591761146360" />
+    <state width="1293" height="282" key="GridCell.Tab.1.right" timestamp="1591761146360">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591761146360" />
     <state width="1293" height="282" key="GridCell.Tab.2.bottom" timestamp="1591706002731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -331,10 +317,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="531" y="182" key="Registry/0.0.1920.1040@0.0.1920.1040" timestamp="1591707635913" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1591707590464">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1591753063773">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591707590463" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591753063773" />
     <state x="334" y="214" key="new project wizard" timestamp="1591685126804">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -10,9 +10,9 @@
         <module name="config-server" />
         <module name="reg-server" />
         <module name="cfg" />
-        <module name="user-server" />
-        <module name="sys-server" />
         <module name="gateway-server" />
+        <module name="sys-server" />
+        <module name="user-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
