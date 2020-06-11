@@ -6,10 +6,10 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/reg-server/pom.xml" />
-        <option value="$PROJECT_DIR$/sys-server/pom.xml" />
         <option value="$PROJECT_DIR$/gateway-server/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/user-server/pom.xml" />
+        <option value="$PROJECT_DIR$/sys-server/pom.xml" />
       </list>
     </option>
   </component>
