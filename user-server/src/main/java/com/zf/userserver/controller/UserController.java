@@ -25,9 +25,11 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping("/getUser/{id}")
+    @RequestMapping(value = "/getUser/{id}",method = RequestMethod.GET)
+    @ApiOperation(value = "查询用户", httpMethod = "GET",produces= MediaType.APPLICATION_JSON_VALUE )
+    @ApiImplicitParam(name = "id", value = "用户ID", required = true, paramType="path",dataType = "int")
     public String GetUser(@PathVariable int id){
-        return userService.Sel(id).toString();
+        return (userService.Sel(id)).toString();
     }
 
     @ApiOperation(value = "获取用户列表",httpMethod = "GET",produces= MediaType.APPLICATION_JSON_VALUE)
