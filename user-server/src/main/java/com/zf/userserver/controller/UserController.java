@@ -19,7 +19,8 @@ import org.springframework.web.bind.annotation.RestController;
 @Api(tags = "用户操作接口")
 //@Controller("user")
 @RestController
-@RequestMapping("/user")
+@RequestMapping(value = "/user", produces = { "application/json;charset=UTF-8" })
+
 public class UserController {
 
     @Autowired

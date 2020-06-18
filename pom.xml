@@ -7,4 +7,11 @@
     <groupId>com.zf</groupId>
     <artifactId>zfcloud</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>sys-server</module>
+        <module>user-server</module>
+    </modules>
+    <dependencies>
+
+    </dependencies>
 </project>
